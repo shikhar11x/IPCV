@@ -1,12 +1,11 @@
 # Smart Document Scanner & Quality Analysis System
 
-**Course:** Image Processing & Computer Vision
 
-**Assignment:** Mini Project — Assignment 1
-**Student:** Shikhar Bajpai &nbsp;|&nbsp; 
-Roll No: 2301010188
-**University:** KR Mangalam University
-
+* **Course:** Image Processing & Computer Vision  
+* **Assignment:** Mini Project Assignment (Assignment-1)  
+* **Student Name:** Shikhar Bajpai  
+* **Roll No:** 2301010188  
+* **University:** KR Mangalam University  
 ---
 
 ## Problem Statement
