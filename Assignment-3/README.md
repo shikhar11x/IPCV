@@ -1,9 +1,11 @@
 # Medical Image Compression & Segmentation System
 
-**Course:** Image Processing & Computer Vision  
-**Assignment:** Mini Project — Assignment 3
-**Student:** Shikhar Bajpai &nbsp;|&nbsp; Roll No: 2301010188  <!-- ← CHANGE THIS -->
-**Date:** 24-04-2026  <!-- ← CHANGE THIS -->
+* **Course:** Image Processing & Computer Vision  
+* **Assignment:** Mini Project Assignment (Assignment-3)  
+* **Student Name:** Shikhar Bajpai  
+* **Roll No:** 2301010188  
+* **University:** KR Mangalam University  
+
 
 ---
 
