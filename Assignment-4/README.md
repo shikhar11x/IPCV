@@ -1,11 +1,10 @@
 # Feature-Based Traffic Monitoring System
 
+**Course:** Image Processing & Computer Vision  
+**Assignment:** Mini Project — Assignment 4  
+**Student:** Shikhar Bajpai &nbsp;|&nbsp; Roll No: 2301010188  <!-- ← CHANGE THIS -->
+**Date:** 24-04-2026  <!-- ← CHANGE THIS -->
 
-* **Course:** Image Processing & Computer Vision  
-* **Assignment:** Mini Project Assignment (Assignment-4)  
-* **Student Name:** Shikhar Bajpai  
-* **Roll No:** 2301010188  
-* **University:** KR Mangalam University  
 
 ---
 
@@ -43,9 +42,9 @@ Assignment-4/
 ├── README.md
 ├── requirements.txt
 ├── images/
-│   ├── traffic1.jpg          ← road intersection image
-│   ├── traffic2.jpg          ← highway image
-│   └── traffic3.jpg          ← pedestrian crossing image
+│   ├── traffic1.jpg
+│   ├── traffic2.jpg
+│   └── traffic3.jpg
 └── outputs/
     ├── traffic1_original.png
     ├── traffic1_sobel.png
@@ -78,35 +77,62 @@ pip install opencv-python numpy matplotlib
 ```
 
 ### Step 2 — Add traffic images
-Place 3 grayscale or color traffic images in the `images/` folder:
+Place 3 traffic images inside the `images/` folder:
 - `images/traffic1.jpg` — road intersection
 - `images/traffic2.jpg` — highway
 - `images/traffic3.jpg` — pedestrian crossing
-
-> **Free datasets:** [Kaggle Traffic Images](https://www.kaggle.com/datasets/dataclusterlabs/indian-vehicle-dataset) | [COCO Dataset](https://cocodataset.org)
 
 ### Step 3 — Run the script
 ```bash
 python traffic_monitoring.py
 ```
 
-All outputs are saved automatically in the `outputs/` folder.
-
 ---
 
 ## Output Results
 
-Each image produces 6 output files + 1 combined comparison figure:
+### Traffic Image 1 — Road Intersection
 
-| Output File | Description |
-|-------------|-------------|
-| `*_original.png` | Grayscale resized input |
-| `*_sobel.png` | Sobel edge map |
-| `*_canny.png` | Canny edge map |
-| `*_contours.png` | Detected contours (green) |
-| `*_bboxes.png` | Bounding boxes around objects (red) |
-| `*_orb_keypoints.png` | ORB keypoints visualized |
-| `*_results.png` | Combined comparison figure |
+| Original | Sobel Edges | Canny Edges |
+|----------|-------------|-------------|
+| ![](outputs/traffic1_original.png) | ![](outputs/traffic1_sobel.png) | ![](outputs/traffic1_canny.png) |
+
+| Contours | Bounding Boxes | ORB Keypoints |
+|----------|----------------|---------------|
+| ![](outputs/traffic1_contours.png) | ![](outputs/traffic1_bboxes.png) | ![](outputs/traffic1_orb_keypoints.png) |
+
+**Full Comparison**
+![](outputs/traffic1_results.png)
+
+---
+
+### Traffic Image 2 — Highway
+
+| Original | Sobel Edges | Canny Edges |
+|----------|-------------|-------------|
+| ![](outputs/traffic2_original.png) | ![](outputs/traffic2_sobel.png) | ![](outputs/traffic2_canny.png) |
+
+| Contours | Bounding Boxes | ORB Keypoints |
+|----------|----------------|---------------|
+| ![](outputs/traffic2_contours.png) | ![](outputs/traffic2_bboxes.png) | ![](outputs/traffic2_orb_keypoints.png) |
+
+**Full Comparison**
+![](outputs/traffic2_results.png)
+
+---
+
+### Traffic Image 3 — Pedestrian Crossing
+
+| Original | Sobel Edges | Canny Edges |
+|----------|-------------|-------------|
+| ![](outputs/traffic3_original.png) | ![](outputs/traffic3_sobel.png) | ![](outputs/traffic3_canny.png) |
+
+| Contours | Bounding Boxes | ORB Keypoints |
+|----------|----------------|---------------|
+| ![](outputs/traffic3_contours.png) | ![](outputs/traffic3_bboxes.png) | ![](outputs/traffic3_orb_keypoints.png) |
+
+**Full Comparison**
+![](outputs/traffic3_results.png)
 
 ---
 
@@ -127,9 +153,9 @@ Canny is preferred for traffic scenes as it produces more precise object boundar
 - Area and perimeter measurements help classify object size (car vs. truck vs. pedestrian)
 
 ### Feature Extraction — ORB
-- ORB (Oriented FAST + Rotated BRIEF) detects stable keypoints regardless of rotation or scale
+- ORB detects stable keypoints regardless of rotation or scale change
 - Descriptors enable matching the same vehicle across multiple frames — essential for tracking
-- ORB is patent-free and computationally efficient, making it suitable for real-time traffic systems
+- ORB is patent-free and computationally efficient for real-time surveillance
 
 ---
 
@@ -137,7 +163,7 @@ Canny is preferred for traffic scenes as it produces more precise object boundar
 
 - [OpenCV Official Documentation](https://docs.opencv.org)
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
-- Gonzalez & Woods — *Digital Image Processing*, 4th Ed. (Edge detection and feature extraction)
+- Gonzalez & Woods — *Digital Image Processing*, 4th Ed.
 - Rublee et al. (2011) — *ORB: An efficient alternative to SIFT or SURF*, ICCV
 
 ---
