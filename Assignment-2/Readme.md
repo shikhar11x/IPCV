@@ -115,6 +115,8 @@ Applied filters:
 ### 🔹 Final Comparison
 ![Comparison](outputs/restoration_result.png)
 
+![Terminal Result](outputs/terminalResult.png)
+
 ---
 
 ## 📈 Observations & Analysis
