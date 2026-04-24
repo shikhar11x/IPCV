@@ -2,7 +2,7 @@
 
 **Course:** Image Processing & Computer Vision  
 **Student:** Shikhar Bajpai &nbsp;|&nbsp; Roll No: 2301010188  
-**Instructor Contact:** satinder.singh@krmangalam.edu.in  
+**Facult Name:** Atisha Dahiya Ma'am  
 
 ---
 
