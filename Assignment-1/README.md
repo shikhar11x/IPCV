@@ -88,7 +88,7 @@ Assignment-1/
 
 ### 🔹 Input Image
 
-* IPCV/Assignment-1/inputs/doc1.png
+![img](inputs/doc1.png) 
 
 ### 🔹 Output Images
 
