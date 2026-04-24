@@ -88,7 +88,7 @@ Assignment-1/
 
 ### 🔹 Input Image
 
-* inputs/doc1.png
+* Assignment-1/inputs/doc1.png
 
 ### 🔹 Output Images
 
