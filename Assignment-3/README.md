@@ -10,7 +10,7 @@
 ## Problem Statement
 
 Medical imaging systems (X-ray, MRI, CT) generate huge volumes of data.  
-This project addresses two critical challenges:
+This project addresses two critical challenges:-
 
 1. **Efficient storage** — using Run Length Encoding (RLE) compression  
 2. **Accurate region-of-interest detection** — using image segmentation and morphological processing
