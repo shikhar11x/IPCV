@@ -1,4 +1,4 @@
-# Image Processing & Computer Vision — Mini Projects
+# Image Processing & Computer Vision
 
 **Course:** Image Processing & Computer Vision  
 **Student:** Shikhar Bajpai &nbsp;|&nbsp; Roll No: 2301010188  
